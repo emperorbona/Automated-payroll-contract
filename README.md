@@ -32,16 +32,17 @@ This project implements a decentralized **Automated Payroll System** using **Sol
 
 ```
 .
-├── contracts
+├── src
 │   └── Payroll.sol
 ├── script
-│   ├── Deploy.s.sol
-│   ├── CreateAndFundSub.s.sol
-│   └── AddConsumer.s.sol
-├── test
-│   └── Payroll.t.sol
-├── helperConfig
+│   ├── DeployPayRoll.s.sol
+│   ├── Interaction.s.sol
 │   └── HelperConfig.s.sol
+├── test
+│   ├──mocks
+│   │   └──LinkToken.sol
+│   ├──unit
+│       └── PayrollTest.t.sol
 ├── foundry.toml
 └── README.md
 ```
